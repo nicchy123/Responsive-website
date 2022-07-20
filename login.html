@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-form</title>
+    <script src="https://kit.fontawesome.com/6f620836b4.js" crossorigin="anonymous"></script>
+    <style>
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+
+        .login-form input {
+            margin-top: 1.5em;
+            padding: 1em;
+        }
+
+        .login-form input[type="submit"] {
+            color: whitesmoke;
+            font-weight: 700;
+            font-size: 1em;
+            background-color: purple;
+            cursor: pointer;
+            border: 0;
+            border-radius: 30px;
+        }
+
+        .login-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        .nav-item {
+            text-decoration: none;
+            list-style: none;
+            color: black;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+</body>
+<header>
+    <nav>
+        <span>
+            <a class="nav-item" href="">Home</a>
+            <a class="nav-item" href="">Dashbosard</a>
+            <a class="nav-item" href="">Inventory</a>
+        </span>
+        <span>
+            <a class="nav-item" href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+            <a class="nav-item" href=""><i class="fa-solid fa-user"></i></a>
+        </span>
+
+    </nav>
+</header>
+<section class="login-container">
+    <form class="login-form" action="">
+        <h2>Please Login</h2>
+        <input type="email" name="" placeholder="Your email" required>
+        <input type="password" placeholder="password" required>
+        <input type="submit" value="login">
+    </form>
+</section>
+
+<body>
+
+
+
+</html>
